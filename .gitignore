@@ -1,0 +1,16 @@
+# Ігнорувати віртуальне середовище
+.venv/
+venv/
+ENV/
+
+# Ігнорувати IDE файли (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Кеш і службові файли Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
