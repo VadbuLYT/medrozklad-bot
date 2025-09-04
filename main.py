@@ -2,9 +2,10 @@ import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from datetime import datetime, date, time, timedelta
+import os
 
 #  токен від BotFather
-API_TOKEN = "8161794118:AAF1R1L-ugLfiYANK-iuiROwyGHx3sfxpYs"
+API_TOKEN = os.getenv("API_TOKEN")
 
 # Ініціалізація бота
 bot = Bot(token=API_TOKEN)
