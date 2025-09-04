@@ -7,6 +7,7 @@ import os
 #  токен від BotFather
 API_TOKEN = os.getenv("API_TOKEN")
 
+
 # Ініціалізація бота
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
